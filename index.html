@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class = "controls">
+            <h1>My Awesome Todo</h1>
+            <input type="text" id="input"><br>
+            <button type="button" id ="add">Add Todo</button><br>
+            <button type="button" id ="remove">Remove Todo</button>
+            <button type="button" id ="removeAll">Remove All Items</button>
+            
+        </div>
+        <ul id="list">
+            <li class="mycheck">
+                <input type="checkbox" id="check" >
+                <label>Wake up at 6am</label>
+            </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>Do yoga</label>
+            </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>learn JavaScript</label>
+            </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check">
+                <label>Sleep at 11pm</label>
+            </li>
+        </ul>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
